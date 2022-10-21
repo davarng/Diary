@@ -2,9 +2,15 @@ public class DiaryEntry {
     private String title;
     private String content;
 
-    public DiaryEntry(String title, String content) {
+    private String date;
+
+    public DiaryEntry() {
+    }
+
+    public DiaryEntry(String title, String content, String date) {
         this.title = title;
         this.content = content;
+        this.date = date;
     }
 
     public String getTitle() {
@@ -22,4 +28,13 @@ public class DiaryEntry {
     public void setContent(String content) {
         this.content = content;
     }
+
+    public String getDate() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
+    }
 }
+
