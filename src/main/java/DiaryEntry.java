@@ -1,3 +1,8 @@
+import java.io.IOException;
+
+/**
+ * This class creates a DiaryEntry that has a title,content and a date when it was written.
+ */
 public class DiaryEntry {
     private String title;
     private String content;
