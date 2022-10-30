@@ -1,7 +1,7 @@
 import java.io.IOException;
 
 /**
- * Mainmetod för Diary
+ * Mainmetod for Diary
  */
 public class Main {
     public static void main(String[] args) throws IOException {
